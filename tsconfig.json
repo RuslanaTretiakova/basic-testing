@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "lib": ["ESNext"],
     "module": "CommonJS",
-    "moduleResolution": "Node",
+    "moduleResolution": "Node16",
     "noUncheckedIndexedAccess": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "rootDir": "./src",
     "outDir": "dist",
     "removeComments": true,
     "resolveJsonModule": true,
@@ -19,5 +19,5 @@
     "strict": true,
     "strictPropertyInitialization": false,
     "target": "ES2020"
-  },
+  }
 }
